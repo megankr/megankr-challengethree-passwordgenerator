@@ -4,9 +4,7 @@ var generateBtn = document.querySelector("#generate");
 // Write password to the #password input. Causes generated password to appear within the HTML text area.
 var passwordText = document.querySelector("#password");
 function writePassword(shuffledPassword) {
-if (password.length === 0) {
-  return;
-  }
+
   passwordText.value = shuffledPassword;
 }
 
