@@ -46,7 +46,7 @@ function generatePassword() {
   if (yesSymbols) {characters += symbols};
 
 // Randomly selects the possible characters, up to the password length input from the user.
-// ***Add code citation***
+// Found solutions for creating this loop here: https://forum.freecodecamp.org/t/im-getting-really-discouraged-with-loops/
   for (i = 0; i < passwordLength; i++) {
     shuffledPassword += characters[Math.floor(Math.random() * characters.length)]
   }
