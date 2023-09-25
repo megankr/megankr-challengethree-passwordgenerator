@@ -1,4 +1,5 @@
 # megankr-challengethree-passwordgenerator
+
 A repository for the U of M Coding Bootcamp Challenge 3, a JavaScript password generator.
 
 ## Description
@@ -17,15 +18,17 @@ Live URL: https://megankr.github.io/megankr-challengethree-passwordgenerator/
 
 
 ## Credits
+
 Base code was provided by the U of M Coding Bootcamp.
 
-Worked with classmates on some code sections, including prompts, confirms and variables.
+Discussed with classmates on some code sections, including prompts, confirms and variables.
 
-Work from forum posters was refenced to create JavaScript for loops:
+Work from forum posts was refenced to create JavaScript for loop (lines 49-52):
 https://forum.freecodecamp.org/t/im-getting-really-discouraged-with-loops/
 
-Additionally refenced this forum post to create JavaScript loops:
+Additionally refenced this forum post to create JavaScript for loop (lines 49-52):
 https://forum.codewithmosh.com/t/creating-a-password-generator-using-javascript/
 
 ## License
+
 N/A
