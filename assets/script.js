@@ -2,14 +2,15 @@
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input. Causes generated password to appear within the HTML text area.
-var passwordText = document.querySelector("#password");
-function writePassword(shuffledPassword) {
+function writePassword(password) {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
 
-  passwordText.value = shuffledPassword;
+  passwordText.value = password;
 }
 
 // Add event listener to generate button.
-generateBtn.addEventListener("click", function () {writePassword(generatePassword())});
+generateBtn.addEventListener("click", writePassword);
 
 function generatePassword() {
 
@@ -35,7 +36,7 @@ function generatePassword() {
   var numbers = "0123456789";
   var symbols = "!#$%&'()*+,-./:;<=>?@]\[^_`{|}~"
   var characters = "";
-  var shuffledPassword = "";
+  var password = "";
 
  // Creates the character set from which the password will be generated, based on the user's confirmations.
   if (yesLowercase) {characters += lowercase};
@@ -45,8 +46,9 @@ function generatePassword() {
 
 // Randomly selects the possible characters, up to the password length input from the user.
 // Found solutions for creating this loop here: https://forum.freecodecamp.org/t/im-getting-really-discouraged-with-loops/
+// And here: https://forum.codewithmosh.com/t/creating-a-password-generator-using-javascript/
   for (i = 0; i < passwordLength; i++) {
-    shuffledPassword += characters[Math.floor(Math.random() * characters.length)]
+    password += characters[Math.floor(Math.random() * characters.length)]
   }
-  return(shuffledPassword);
+  return(password);
 }
