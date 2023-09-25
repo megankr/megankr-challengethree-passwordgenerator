@@ -18,8 +18,11 @@ Live URL: https://megankr.github.io/megankr-challengethree-passwordgenerator/
 
 ## Credits
 Base code was provided by the U of M Coding Bootcamp.
-Work from forum posters was refenced to create JavaScript for loops:
+\Worked with classmates on some code sections, including prompts, confirms and variables.
+\Work from forum posters was refenced to create JavaScript for loops:
 https://forum.freecodecamp.org/t/im-getting-really-discouraged-with-loops/
+\Additionally refenced this forum post to create JavaScript loops:
+https://forum.codewithmosh.com/t/creating-a-password-generator-using-javascript/
 
 ## License
 N/A
